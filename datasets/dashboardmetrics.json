@@ -1,0 +1,212 @@
+[
+  {
+    "id": "9070bfa2-610d-4ae4-934b-935e3b016ef5",
+    "metric_name": "Retention Rate",
+    "value": 55205.0,
+    "percentage_change": 13.04,
+    "date_recorded": "2025-02-03"
+  },
+  {
+    "id": "76061a05-66af-4643-98e3-ce1fa5e99c82",
+    "metric_name": "New Users",
+    "value": 58596.55,
+    "percentage_change": -4.1,
+    "date_recorded": "2025-02-05"
+  },
+  {
+    "id": "2e9ae077-c87c-4d8a-a553-60ada2f8bb4c",
+    "metric_name": "Conversion Rate",
+    "value": 18160.68,
+    "percentage_change": -3.13,
+    "date_recorded": "2025-02-01"
+  },
+  {
+    "id": "ce60986a-35fa-4185-a597-fe1f9454d264",
+    "metric_name": "Churn Rate",
+    "value": 61845.11,
+    "percentage_change": 6.06,
+    "date_recorded": "2025-01-10"
+  },
+  {
+    "id": "9382b39b-de2b-4031-841a-e8b885c015f6",
+    "metric_name": "Revenue",
+    "value": 41687.07,
+    "percentage_change": 12.69,
+    "date_recorded": "2025-02-10"
+  },
+  {
+    "id": "2b873dbe-6f1c-4a40-9c29-2068266c0506",
+    "metric_name": "New Users",
+    "value": 60459.21,
+    "percentage_change": 6.73,
+    "date_recorded": "2025-02-07"
+  },
+  {
+    "id": "98bab4d7-5ff4-4272-8979-76b0e0ded85a",
+    "metric_name": "Retention Rate",
+    "value": 60904.17,
+    "percentage_change": 11.45,
+    "date_recorded": "2025-02-08"
+  },
+  {
+    "id": "32d47229-54ec-448c-b6da-847a3303857a",
+    "metric_name": "New Users",
+    "value": 98631.1,
+    "percentage_change": 15.45,
+    "date_recorded": "2025-02-10"
+  },
+  {
+    "id": "b78c2a7c-054a-46bf-9ba4-c1924487c7ba",
+    "metric_name": "New Users",
+    "value": 83719.93,
+    "percentage_change": -2.84,
+    "date_recorded": "2025-01-17"
+  },
+  {
+    "id": "03d5a8bc-47dd-47cd-ac16-cb874ea94457",
+    "metric_name": "Retention Rate",
+    "value": 93914.01,
+    "percentage_change": -13.88,
+    "date_recorded": "2025-01-16"
+  },
+  {
+    "id": "48152b79-a335-4585-8403-d3e8d4d15b7b",
+    "metric_name": "Revenue",
+    "value": 75581.88,
+    "percentage_change": 15.99,
+    "date_recorded": "2025-01-17"
+  },
+  {
+    "id": "10c61a67-fa6b-47cc-b6c4-2fa3589ff150",
+    "metric_name": "Conversion Rate",
+    "value": 62737.41,
+    "percentage_change": 15.62,
+    "date_recorded": "2025-01-16"
+  },
+  {
+    "id": "1c8ca0f1-a93e-4862-a79a-b35d9599ffcc",
+    "metric_name": "Conversion Rate",
+    "value": 24312.99,
+    "percentage_change": 16.06,
+    "date_recorded": "2025-01-21"
+  },
+  {
+    "id": "c5def0fc-1262-49c4-995b-f4eccc6b39a4",
+    "metric_name": "Revenue",
+    "value": 74027.81,
+    "percentage_change": 3.88,
+    "date_recorded": "2025-01-19"
+  },
+  {
+    "id": "3a1fbe1d-3910-42ac-ab6b-c93095d4920e",
+    "metric_name": "Retention Rate",
+    "value": 35402.77,
+    "percentage_change": 6.69,
+    "date_recorded": "2025-01-07"
+  },
+  {
+    "id": "a92c2d8c-ebd9-418d-a3c6-dcca4e248513",
+    "metric_name": "Revenue",
+    "value": 19970.23,
+    "percentage_change": 9.45,
+    "date_recorded": "2025-01-23"
+  },
+  {
+    "id": "d8269713-77e0-4f5e-858b-f8989fa125b7",
+    "metric_name": "Retention Rate",
+    "value": 28482.83,
+    "percentage_change": -5.8,
+    "date_recorded": "2025-01-27"
+  },
+  {
+    "id": "786b08c6-e07e-434b-b9bc-3c8e20b61717",
+    "metric_name": "Conversion Rate",
+    "value": 22130.23,
+    "percentage_change": 6.92,
+    "date_recorded": "2025-02-05"
+  },
+  {
+    "id": "b6f8b011-70b8-4a8a-8549-79b9714d7750",
+    "metric_name": "Churn Rate",
+    "value": 7686.34,
+    "percentage_change": -8.3,
+    "date_recorded": "2025-01-04"
+  },
+  {
+    "id": "19be3aa9-5057-4e47-94a0-ea8d35f85cc1",
+    "metric_name": "Retention Rate",
+    "value": 62434.38,
+    "percentage_change": -9.58,
+    "date_recorded": "2025-01-04"
+  },
+  {
+    "id": "503f3d34-ca95-4da4-9c8c-01cfffc7d086",
+    "metric_name": "Churn Rate",
+    "value": 85805.44,
+    "percentage_change": -11.03,
+    "date_recorded": "2025-02-05"
+  },
+  {
+    "id": "31bdb531-db84-48f9-a909-ea2e2f004750",
+    "metric_name": "Revenue",
+    "value": 34000.18,
+    "percentage_change": -19.15,
+    "date_recorded": "2025-02-13"
+  },
+  {
+    "id": "aeac3e89-14ec-4829-b983-78163ec02409",
+    "metric_name": "Conversion Rate",
+    "value": 18042.85,
+    "percentage_change": -5.1,
+    "date_recorded": "2025-01-22"
+  },
+  {
+    "id": "083932a0-5d0e-4f22-adf7-a4e8882e6169",
+    "metric_name": "Conversion Rate",
+    "value": 16399.41,
+    "percentage_change": -19.23,
+    "date_recorded": "2025-01-29"
+  },
+  {
+    "id": "5d1a85b1-2e43-4487-a0ef-8355a221464c",
+    "metric_name": "New Users",
+    "value": 56916.15,
+    "percentage_change": 4.19,
+    "date_recorded": "2025-01-14"
+  },
+  {
+    "id": "3bd2cf01-9148-4bee-871a-d937f80e726a",
+    "metric_name": "Retention Rate",
+    "value": 11153.33,
+    "percentage_change": 17.9,
+    "date_recorded": "2025-01-02"
+  },
+  {
+    "id": "728d29dc-5f36-4d92-8e06-9018af9aa8d3",
+    "metric_name": "New Users",
+    "value": 97756.37,
+    "percentage_change": 12.23,
+    "date_recorded": "2025-02-01"
+  },
+  {
+    "id": "a87e876e-dce2-4566-9434-0b84d7224f5f",
+    "metric_name": "Conversion Rate",
+    "value": 64886.23,
+    "percentage_change": -8.72,
+    "date_recorded": "2025-01-16"
+  },
+  {
+    "id": "63a3d8fd-3ca0-42c8-9a3d-876b4cbf8c63",
+    "metric_name": "Churn Rate",
+    "value": 31813.55,
+    "percentage_change": 2.31,
+    "date_recorded": "2025-01-20"
+  },
+  {
+    "id": "bdfb3bfb-a6cf-49c0-aa45-e13ecf5239dc",
+    "metric_name": "Conversion Rate",
+    "value": 86859.65,
+    "percentage_change": -4.59,
+    "date_recorded": "2025-02-11"
+  }
+]

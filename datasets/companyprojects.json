@@ -1,0 +1,456 @@
+[
+  {
+    "id": "34ce7582-aef6-4cb0-b2b2-d48c0b6320a3",
+    "project_name": "Multi-lateral background intranet",
+    "company": "Rodriguez, Adams and Welch",
+    "team_members": [
+      "Lisa Goodwin",
+      "Kara Arroyo",
+      "Jordan Vang",
+      "Roy Sampson",
+      "Charles Singleton",
+      "Kim Green"
+    ],
+    "start_date": "2023-06-12",
+    "end_date": "2020-01-24",
+    "status": "Completed",
+    "budget": 203245.73
+  },
+  {
+    "id": "53144722-9652-4bd1-870d-09eb521882dc",
+    "project_name": "Right-sized transitional utilization",
+    "company": "Whitaker Group",
+    "team_members": [
+      "Bethany Morris",
+      "Sonya Bradford",
+      "Melinda Holmes"
+    ],
+    "start_date": "2023-06-14",
+    "end_date": "2020-03-22",
+    "status": "On Hold",
+    "budget": 198195.84
+  },
+  {
+    "id": "95eabdd6-c21e-403a-a917-b546d64834e2",
+    "project_name": "Compatible context-sensitive open system",
+    "company": "Kelly-Smith",
+    "team_members": [
+      "Ronnie Clark",
+      "Barbara Zavala"
+    ],
+    "start_date": "2022-03-14",
+    "end_date": "2021-04-03",
+    "status": "Completed",
+    "budget": 17765.32
+  },
+  {
+    "id": "ad6ff671-30e8-4a03-bf58-710d20ec71ed",
+    "project_name": "Optimized value-added product",
+    "company": "Kelly-Smith",
+    "team_members": [
+      "Laura Arias",
+      "Dawn Reeves",
+      "Jeffrey Jones",
+      "Manuel Wilkerson",
+      "Megan Johnson",
+      "Julia Morris"
+    ],
+    "start_date": "2024-06-30",
+    "end_date": "2023-10-25",
+    "status": "Completed",
+    "budget": 246168.91
+  },
+  {
+    "id": "0386bbe5-7209-4ae2-ab14-e85493f0be49",
+    "project_name": "Configurable motivating benchmark",
+    "company": "Jones LLC",
+    "team_members": [
+      "Benjamin Murphy",
+      "Molly Garcia"
+    ],
+    "start_date": "2020-10-31",
+    "end_date": "2024-09-19",
+    "status": "On Hold",
+    "budget": 434530.74
+  },
+  {
+    "id": "9213f95e-f119-4370-9f3c-287a30bf5a15",
+    "project_name": "Expanded hybrid challenge",
+    "company": "Navarro LLC",
+    "team_members": [
+      "Emily Hall",
+      "Brad Taylor",
+      "Ellen Robinson",
+      "Veronica Ewing",
+      "Aaron Blackwell",
+      "Zachary Hanson"
+    ],
+    "start_date": "2022-02-04",
+    "end_date": "2021-05-24",
+    "status": "In Progress",
+    "budget": 368373.45
+  },
+  {
+    "id": "4a3bbbf5-0de3-4273-af2b-4a1ba7acf30b",
+    "project_name": "Inverse user-facing architecture",
+    "company": "Lopez PLC",
+    "team_members": [
+      "Ashley Chavez",
+      "Joseph Miranda",
+      "Jennifer Allison"
+    ],
+    "start_date": "2020-09-18",
+    "end_date": "2023-12-22",
+    "status": "Cancelled",
+    "budget": 41770.24
+  },
+  {
+    "id": "dc3f1a3f-b7e0-40ea-bcde-232c2b2b7395",
+    "project_name": "User-friendly scalable strategy",
+    "company": "Pugh, Valencia and Robertson",
+    "team_members": [
+      "Brett Parker",
+      "Jessica Martin"
+    ],
+    "start_date": "2021-08-14",
+    "end_date": "2021-06-04",
+    "status": "On Hold",
+    "budget": 42926.74
+  },
+  {
+    "id": "7d3e6702-1551-4097-bf36-6e6dfcb26d60",
+    "project_name": "Sharable cohesive info-mediaries",
+    "company": "Green, Reyes and Cameron",
+    "team_members": [
+      "David Walker",
+      "Erik Huff",
+      "Suzanne Daugherty",
+      "James Tyler",
+      "Lori Daniel",
+      "Margaret Little"
+    ],
+    "start_date": "2020-01-30",
+    "end_date": "2022-01-27",
+    "status": "Completed",
+    "budget": 335906.95
+  },
+  {
+    "id": "bd1e60de-fa11-4015-8476-8e8d81390d89",
+    "project_name": "Adaptive responsive methodology",
+    "company": "Hall and Sons",
+    "team_members": [
+      "Tiffany Torres",
+      "Tyler Holloway",
+      "Danielle Robinson",
+      "Wayne Durham",
+      "Catherine Simpson"
+    ],
+    "start_date": "2022-02-27",
+    "end_date": "2024-10-26",
+    "status": "Cancelled",
+    "budget": 476409.13
+  },
+  {
+    "id": "1e0e25d0-da3a-4e33-b5a3-99a104328ef1",
+    "project_name": "Fully-configurable grid-enabled collaboration",
+    "company": "Wilson-Soto",
+    "team_members": [
+      "Stanley Espinoza",
+      "Joseph Alexander",
+      "Jim Payne",
+      "Jo Bailey",
+      "Amy Cannon",
+      "Brittney Long"
+    ],
+    "start_date": "2024-07-09",
+    "end_date": "2021-08-01",
+    "status": "Completed",
+    "budget": 53622.96
+  },
+  {
+    "id": "3f7311d0-9910-47be-ac3e-5a447e227b1c",
+    "project_name": "Seamless tangible installation",
+    "company": "Harris, Aguilar and Martin",
+    "team_members": [
+      "Nathan Chavez",
+      "Nicole Benton",
+      "Gregory Cox"
+    ],
+    "start_date": "2023-02-26",
+    "end_date": "2020-06-10",
+    "status": "In Progress",
+    "budget": 434620.01
+  },
+  {
+    "id": "00be41f7-dd8e-4264-9780-19b28c4b873e",
+    "project_name": "User-friendly modular approach",
+    "company": "Tucker, Rogers and Potter",
+    "team_members": [
+      "Amber Gregory",
+      "Melissa Barber",
+      "Scott Prince",
+      "Sally Gonzales",
+      "Jennifer Mendoza"
+    ],
+    "start_date": "2024-03-08",
+    "end_date": "2020-12-11",
+    "status": "In Progress",
+    "budget": 274031.87
+  },
+  {
+    "id": "582462f4-2fb9-44fe-b528-56d9d0a9ce77",
+    "project_name": "Reactive bottom-line data-warehouse",
+    "company": "Cohen-Delgado",
+    "team_members": [
+      "Amy Patton",
+      "Lauren Wallace",
+      "Jesse Watkins"
+    ],
+    "start_date": "2020-02-06",
+    "end_date": "2025-01-31",
+    "status": "On Hold",
+    "budget": 471273.31
+  },
+  {
+    "id": "c1a2772e-9cc7-472d-bd64-c2db2714293c",
+    "project_name": "Fully-configurable 24/7 framework",
+    "company": "Velazquez LLC",
+    "team_members": [
+      "Stephanie Clark",
+      "Kathleen Gonzalez",
+      "Ashley Gonzales",
+      "Andrew Williams"
+    ],
+    "start_date": "2022-08-29",
+    "end_date": "2023-12-10",
+    "status": "Cancelled",
+    "budget": 34630.63
+  },
+  {
+    "id": "32bbdd60-aa8a-4293-8ccd-175be2dbfc1d",
+    "project_name": "Adaptive client-driven structure",
+    "company": "Barnett-Peters",
+    "team_members": [
+      "Rodney Larson",
+      "Connie Hall"
+    ],
+    "start_date": "2023-08-06",
+    "end_date": "2020-01-11",
+    "status": "On Hold",
+    "budget": 87608.06
+  },
+  {
+    "id": "675b93a1-9ba8-49c7-af20-c0e7a9892603",
+    "project_name": "Cross-group value-added functionalities",
+    "company": "Cline, Chang and Flores",
+    "team_members": [
+      "Jill Baker",
+      "Ray Perez",
+      "Stephen Jackson",
+      "Patrick Craig",
+      "Vanessa Morgan",
+      "Sharon Marshall"
+    ],
+    "start_date": "2020-11-25",
+    "end_date": "2023-06-22",
+    "status": "In Progress",
+    "budget": 445363.33
+  },
+  {
+    "id": "b3de0c93-88e9-4069-9939-9a32b58a39ce",
+    "project_name": "Mandatory optimizing support",
+    "company": "Greene Ltd",
+    "team_members": [
+      "Erika Howell",
+      "Elizabeth Mcguire",
+      "Alexis Winters"
+    ],
+    "start_date": "2024-08-08",
+    "end_date": "2020-10-16",
+    "status": "In Progress",
+    "budget": 125067.93
+  },
+  {
+    "id": "97ceb1ff-593b-40cf-804c-6873562ca87f",
+    "project_name": "Multi-lateral asynchronous utilization",
+    "company": "Kirk, Morales and Morgan",
+    "team_members": [
+      "Justin Reed",
+      "Kylie Todd",
+      "Jonathan Evans"
+    ],
+    "start_date": "2020-11-06",
+    "end_date": "2023-02-14",
+    "status": "In Progress",
+    "budget": 38729.88
+  },
+  {
+    "id": "3db275b9-e149-4d4f-864d-5eb1ed6b6d4c",
+    "project_name": "User-centric human-resource solution",
+    "company": "Hall-Fuller",
+    "team_members": [
+      "Timothy Burns",
+      "Jacqueline Watts",
+      "Paul Perez"
+    ],
+    "start_date": "2024-01-26",
+    "end_date": "2023-12-10",
+    "status": "Cancelled",
+    "budget": 274453.33
+  },
+  {
+    "id": "f487f143-4833-477c-8c72-b170dbe33caa",
+    "project_name": "Object-based actuating monitoring",
+    "company": "Brewer-Conner",
+    "team_members": [
+      "Kenneth Terrell",
+      "Dawn Benson",
+      "Christina Thompson",
+      "Shelly Smith",
+      "Lance Duncan",
+      "Yolanda Mosley"
+    ],
+    "start_date": "2024-05-09",
+    "end_date": "2024-11-05",
+    "status": "On Hold",
+    "budget": 275153.66
+  },
+  {
+    "id": "f15c41ca-a248-4604-aff3-b808623950bf",
+    "project_name": "Synergized motivating system engine",
+    "company": "Collins, Smith and Bell",
+    "team_members": [
+      "Sarah Johnson",
+      "Craig Hernandez",
+      "Lori Riley",
+      "Stephanie Holder"
+    ],
+    "start_date": "2024-10-16",
+    "end_date": "2024-02-11",
+    "status": "Completed",
+    "budget": 494839.27
+  },
+  {
+    "id": "8b1441da-32e6-4f07-9c59-a668876697cb",
+    "project_name": "Synchronized cohesive open system",
+    "company": "Jackson, Boyer and Hamilton",
+    "team_members": [
+      "Dana Taylor",
+      "Ana Riley",
+      "James Harvey",
+      "Samantha Roberts"
+    ],
+    "start_date": "2024-06-09",
+    "end_date": "2022-06-21",
+    "status": "On Hold",
+    "budget": 458516.44
+  },
+  {
+    "id": "05cd0a63-d41d-413e-ae08-05d6e55f9fa6",
+    "project_name": "Optional executive support",
+    "company": "Chavez-King",
+    "team_members": [
+      "Elijah Rivera",
+      "Maria Rangel",
+      "Kimberly Keller MD",
+      "Alexandra Dominguez",
+      "Kristen Butler"
+    ],
+    "start_date": "2022-01-25",
+    "end_date": "2021-11-09",
+    "status": "Cancelled",
+    "budget": 314177.53
+  },
+  {
+    "id": "af4afbb3-0cde-4459-af02-44341e7a4537",
+    "project_name": "Innovative content-based functionalities",
+    "company": "Martinez Group",
+    "team_members": [
+      "Mrs. Jessica Thomas DVM",
+      "Melissa Graham",
+      "Richard Bradley",
+      "Kathleen Thomas",
+      "Miranda Cordova",
+      "Heather Walter"
+    ],
+    "start_date": "2024-11-22",
+    "end_date": "2022-05-25",
+    "status": "Cancelled",
+    "budget": 459213.9
+  },
+  {
+    "id": "757f9c51-8c7d-4e17-918f-863e4ed2bd92",
+    "project_name": "Organized client-driven product",
+    "company": "Reynolds Inc",
+    "team_members": [
+      "Mark Horne",
+      "Brenda Morse",
+      "Cynthia Hurley",
+      "Steven Smith"
+    ],
+    "start_date": "2023-03-09",
+    "end_date": "2020-07-15",
+    "status": "Completed",
+    "budget": 238803.69
+  },
+  {
+    "id": "d144f6b0-ce89-4b95-84e6-1422b3c0ce76",
+    "project_name": "Phased responsive interface",
+    "company": "Newman Group",
+    "team_members": [
+      "Kathryn Morris",
+      "Shawn Thompson",
+      "Robert Mccarty",
+      "Jeffrey Chen"
+    ],
+    "start_date": "2020-06-21",
+    "end_date": "2023-12-16",
+    "status": "In Progress",
+    "budget": 196171.81
+  },
+  {
+    "id": "3e0aa81e-1927-49a4-86b3-2f4637f81ab4",
+    "project_name": "Horizontal tangible neural-net",
+    "company": "Solis Ltd",
+    "team_members": [
+      "Joseph Miller",
+      "Kristi Daugherty",
+      "Scott Palmer",
+      "Ann Rodriguez"
+    ],
+    "start_date": "2021-11-25",
+    "end_date": "2020-10-03",
+    "status": "On Hold",
+    "budget": 139797.43
+  },
+  {
+    "id": "81a6b3df-839b-4450-8433-b54178545f05",
+    "project_name": "Realigned leadingedge migration",
+    "company": "Parker-Cummings",
+    "team_members": [
+      "Marcus Bishop",
+      "Matthew Jones"
+    ],
+    "start_date": "2020-04-23",
+    "end_date": "2023-08-01",
+    "status": "On Hold",
+    "budget": 282075.33
+  },
+  {
+    "id": "5f89395c-534f-49ec-8c0b-159050e97ed4",
+    "project_name": "Ameliorated optimal hub",
+    "company": "Lee, Hamilton and Martin",
+    "team_members": [
+      "Meghan Taylor",
+      "Brittany Edwards",
+      "Carlos Mcdaniel",
+      "Breanna Diaz",
+      "Kelly Sherman",
+      "Linda Patterson"
+    ],
+    "start_date": "2022-06-30",
+    "end_date": "2024-05-09",
+    "status": "On Hold",
+    "budget": 65136.1
+  }
+]

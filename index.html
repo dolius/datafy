@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Prototyping Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.27.0/prism.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.27.0/themes/prism-tomorrow.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #121212; color: #e0e0e0; }
+        .container { max-width: 800px; }
+        .json-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 20px 0;
+        }
+.json-card {
+    display: flex;
+    align-items: center;
+}
+
+.json-icon {
+    font-size: 36px;
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+        .json-card:hover {
+            background-color: #2c2c2c;
+            cursor: pointer;
+        }
+        .json-title {
+            font-weight: bold;
+            font-size: 22px;
+            color: #ffffff;
+        }
+        .json-file {
+            font-size: 18px;
+            color: #bbbbbb;
+        }
+        .json-description {
+            font-size: 18px;
+            color: #aaaaaa;
+        }
+
+        .form-control, .form-control:focus {
+    color: white;
+    background-color: black;
+    border-color: white;
+    padding: 20px 40px;
+}
+
+.modal-body {height: 80vh; overflow-y: scroll;}
+
+        pre { background-color: #282c34; color: #fff; padding: 10px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+
+
+
+
+<main>
+    <div class="container mt-4">
+        <h1 class="py-4">📃 Datafy</h1>
+        <h3>Data simplified. Prototyping amplified.</h3>
+        <p class="lead py-4">Datafy is the ultimate hub for ready-to-use JSON datasets, built for UI/UX designers, developers, and AI engineers who need quick, structured, and realistic mock data.</p>
+    <!-- Search & Filters -->
+    <div class="row my-3">
+        <div class="col-md-6">
+            <input type="text" id="search" class="form-control" placeholder="Search JSON files...">
+        </div>
+        <div class="col-md-6">
+            <select id="categoryFilter" class="form-select form-control">
+                <option value="all">All Categories</option>
+                <option value="ecommerce">E-Commerce</option>
+                <option value="users">Users & Profiles</option>
+                <option value="dashboards">Dashboards</option>
+                <option value="design">Design & UI</option>
+                <option value="finance">Finance</option>
+                <option value="gaming">Gaming</option>
+            </select>
+        </div>
+    </div>
+        <!-- JSON List -->
+        <div id="jsonList" class="json-list"></div>
+    </div>
+</main>
+
+
+
+
+
+
+<!-- JSON Preview Modal -->
+<div class="modal fade" id="jsonModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">JSON Preview</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <pre><code class="language-json" id="jsonPreview"></code></pre>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="copyJSON()">Copy JSON</button>
+                <a id="downloadLink" class="btn btn-primary" download>Download</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+const jsonFiles = [
+    { name: "Fake Store", file: "datasets/fakestore.json", category: "ecommerce", icon: "shopping_cart", description: "A collection of fake products for your e-commerce mockups." },
+    { name: "Shopping Cart", file: "datasets/shoppingcart.json", category: "ecommerce", icon: "shopping_basket", description: "Test shopping cart functionalities without real transactions!" },
+    { name: "User Profiles", file: "datasets/users.json", category: "users", icon: "person", description: "Fake users with emails, addresses, and job titles." },
+    { name: "Employee Data", file: "datasets/employees.json", category: "users", icon: "badge", description: "HR mock data for payroll or employee directory testing." },
+    { name: "Dashboard Metrics", file: "datasets/dashboardmetrics.json", category: "dashboards", icon: "analytics", description: "Random business KPIs and metrics for dashboard testing." },
+    { name: "Portfolio Projects", file: "datasets/portfolioprojects.json", category: "design", icon: "work", description: "Fake design projects with tools and client names." },
+    { name: "Claims", file: "datasets/claims.json", category: "finance", icon: "gavel", description: "Injury claims with severity, job details, and compensation info." },
+    { name: "Music Playlist", file: "datasets/musicplaylist.json", category: "design", icon: "library_music", description: "A set of fictional songs, artists, and albums." },
+    { name: "Web Resources", file: "datasets/webresources.json", category: "design", icon: "language", description: "A curated list of dev tools and design resources." },
+    { name: "Payment Details", file: "datasets/paymentdetails.json", category: "finance", icon: "credit_card", description: "Simulated payment transactions for fintech projects." },
+    { name: "Resumes", file: "datasets/resumes.json", category: "users", icon: "assignment_ind", description: "Fictional resumes with job experience and skills." },
+    { name: "Game Stats", file: "datasets/gamestats.json", category: "gaming", icon: "sports_esports", description: "Fake leaderboard and player stats for gaming apps." },
+    { name: "Company Projects", file: "datasets/companyprojects.json", category: "design", icon: "business", description: "Business projects with budgets, teams, and timelines." },
+    { name: "Project Budgets", file: "datasets/projectbudgets.json", category: "finance", icon: "account_balance", description: "Mock budget allocations for project cost planning." }
+];
+function loadJSONList() {
+    const list = document.getElementById("jsonList");
+    list.innerHTML = "";
+    jsonFiles.forEach(json => {
+        list.innerHTML += `
+            <div class="json-card p-5 my-2 border rounded" onclick="previewJSON('${json.file}', '${json.name}')">
+                <span class="material-icons json-icon">${json.icon}</span>
+                <div class="json-content">
+                    <div class="json-title">${json.name}</div>
+                    <div class="json-file"> ${json.file}</div>
+                    <div class="json-description">${json.description}</div>
+                </div>
+            </div>`;
+    });
+}
+
+
+
+document.getElementById("search").addEventListener("input", function () {
+    const query = this.value.toLowerCase();
+    document.querySelectorAll(".json-card").forEach(card => {
+        card.style.display = card.innerText.toLowerCase().includes(query) ? "block" : "none";
+    });
+});
+
+document.getElementById("categoryFilter").addEventListener("change", function () {
+    const category = this.value;
+    document.querySelectorAll(".json-card").forEach(card => {
+        const name = card.querySelector(".json-title").innerText;
+        const file = jsonFiles.find(json => json.name === name);
+        
+        if (!file) return; // Prevent errors if the file is not found
+        
+        card.style.display = category === "all" || file.category === category ? "block" : "none";
+    });
+});
+
+
+
+function previewJSON(url, name) {
+    fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("jsonPreview").textContent = JSON.stringify(data, null, 2);
+            Prism.highlightAll();
+            document.getElementById("downloadLink").setAttribute("href", url);
+            new bootstrap.Modal(document.getElementById("jsonModal")).show();
+        });
+}
+
+function copyJSON() {
+    const jsonText = document.getElementById("jsonPreview").textContent;
+    navigator.clipboard.writeText(jsonText).then(() => alert("Copied to clipboard!"));
+}
+
+document.addEventListener("DOMContentLoaded", loadJSONList);
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

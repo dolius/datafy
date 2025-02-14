@@ -1,0 +1,362 @@
+[
+  {
+    "id": "f5abc614-e1e4-4734-8276-c58f44b02755",
+    "player_name": "Lisa Bennett",
+    "game": "Apex Legends",
+    "score": 1999,
+    "level": 33,
+    "achievements": [
+      "Speedrunner",
+      "Elite Shooter"
+    ],
+    "play_time_hours": 197.14
+  },
+  {
+    "id": "0b36a0b4-3a35-43fe-9596-1afb397a1d07",
+    "player_name": "Martin Castro",
+    "game": "Apex Legends",
+    "score": 8715,
+    "level": 9,
+    "achievements": [
+      "Master Rank",
+      "Speedrunner"
+    ],
+    "play_time_hours": 380.07
+  },
+  {
+    "id": "f196d6ac-e44a-4fa4-92ee-b9b5c954f69e",
+    "player_name": "Patricia Watson",
+    "game": "Apex Legends",
+    "score": 8388,
+    "level": 40,
+    "achievements": [
+      "Top 10%",
+      "Survivor"
+    ],
+    "play_time_hours": 63.75
+  },
+  {
+    "id": "8e5d99f7-25dd-4dae-8df8-60620affdfeb",
+    "player_name": "Sandra Coleman",
+    "game": "Call of Duty",
+    "score": 6180,
+    "level": 22,
+    "achievements": [
+      "Master Rank",
+      "Top 10%"
+    ],
+    "play_time_hours": 232.48
+  },
+  {
+    "id": "35d0c0e4-7370-49e7-a638-a2bd37afc863",
+    "player_name": "Scott Hernandez",
+    "game": "Overwatch",
+    "score": 7571,
+    "level": 46,
+    "achievements": [
+      "Top 10%",
+      "Speedrunner"
+    ],
+    "play_time_hours": 344.05
+  },
+  {
+    "id": "7deac1c2-520f-4257-94b4-98ef9e4ebeab",
+    "player_name": "Joseph Black",
+    "game": "Call of Duty",
+    "score": 8989,
+    "level": 42,
+    "achievements": [
+      "Speedrunner",
+      "Elite Shooter"
+    ],
+    "play_time_hours": 22.29
+  },
+  {
+    "id": "664a9a0b-4634-44e8-b853-3503d299dfc7",
+    "player_name": "John Ruiz",
+    "game": "League of Legends",
+    "score": 4962,
+    "level": 49,
+    "achievements": [
+      "Speedrunner",
+      "Survivor"
+    ],
+    "play_time_hours": 22.38
+  },
+  {
+    "id": "75c03228-2f01-412f-a89b-b3bf477bb749",
+    "player_name": "Kim Martin",
+    "game": "Apex Legends",
+    "score": 2207,
+    "level": 34,
+    "achievements": [
+      "Top 10%",
+      "Survivor"
+    ],
+    "play_time_hours": 270.09
+  },
+  {
+    "id": "e0101fda-9fee-4c2c-95fe-510dc2d524b2",
+    "player_name": "Steve Hart",
+    "game": "League of Legends",
+    "score": 4795,
+    "level": 38,
+    "achievements": [
+      "Speedrunner",
+      "Elite Shooter"
+    ],
+    "play_time_hours": 197.4
+  },
+  {
+    "id": "18b184b3-d689-413b-99af-f4cd66015277",
+    "player_name": "Maria King",
+    "game": "Overwatch",
+    "score": 3932,
+    "level": 9,
+    "achievements": [
+      "Top 10%",
+      "Speedrunner"
+    ],
+    "play_time_hours": 381.23
+  },
+  {
+    "id": "864de8a8-de2e-4124-b2d2-b2211da942c5",
+    "player_name": "Veronica Glenn",
+    "game": "Overwatch",
+    "score": 3827,
+    "level": 24,
+    "achievements": [
+      "Master Rank",
+      "Top 10%"
+    ],
+    "play_time_hours": 13.78
+  },
+  {
+    "id": "b4de50bd-5926-44e4-ad6d-46cd92ac8198",
+    "player_name": "Sarah Mcdaniel",
+    "game": "Overwatch",
+    "score": 8147,
+    "level": 29,
+    "achievements": [
+      "Master Rank",
+      "Speedrunner"
+    ],
+    "play_time_hours": 406.13
+  },
+  {
+    "id": "8f9e34ad-92af-4f29-9e93-b91e8d635420",
+    "player_name": "Juan Evans",
+    "game": "Call of Duty",
+    "score": 6405,
+    "level": 39,
+    "achievements": [
+      "Top 10%",
+      "Master Rank"
+    ],
+    "play_time_hours": 463.94
+  },
+  {
+    "id": "b77d65db-03d0-4281-a4d4-b750c149766a",
+    "player_name": "Paul Riley",
+    "game": "Apex Legends",
+    "score": 1313,
+    "level": 20,
+    "achievements": [
+      "Master Rank",
+      "Survivor"
+    ],
+    "play_time_hours": 126.36
+  },
+  {
+    "id": "bf84d55c-4402-490d-ba86-bc10d959f72b",
+    "player_name": "Thomas Simmons",
+    "game": "Call of Duty",
+    "score": 3306,
+    "level": 40,
+    "achievements": [
+      "Speedrunner",
+      "Master Rank"
+    ],
+    "play_time_hours": 225.18
+  },
+  {
+    "id": "6b3c6b67-4df9-43d7-b5dc-5ccde4cd8676",
+    "player_name": "Larry Montoya",
+    "game": "Call of Duty",
+    "score": 3644,
+    "level": 49,
+    "achievements": [
+      "Speedrunner",
+      "Master Rank"
+    ],
+    "play_time_hours": 167.93
+  },
+  {
+    "id": "1eec601a-a6dd-4a31-9f4c-55a03e9d3847",
+    "player_name": "Betty Garcia",
+    "game": "Call of Duty",
+    "score": 1643,
+    "level": 43,
+    "achievements": [
+      "Master Rank",
+      "Speedrunner"
+    ],
+    "play_time_hours": 426.48
+  },
+  {
+    "id": "e4dd00a9-fb21-4d21-ac52-5870078a7eef",
+    "player_name": "Lori Martin",
+    "game": "Apex Legends",
+    "score": 6349,
+    "level": 35,
+    "achievements": [
+      "Speedrunner",
+      "Survivor"
+    ],
+    "play_time_hours": 72.24
+  },
+  {
+    "id": "73d99f00-5abb-4f84-9aed-4e4c6fb26bf8",
+    "player_name": "David Price",
+    "game": "Apex Legends",
+    "score": 2507,
+    "level": 18,
+    "achievements": [
+      "Survivor",
+      "Speedrunner"
+    ],
+    "play_time_hours": 345.12
+  },
+  {
+    "id": "6525d9da-daf1-464e-ab3f-381585a16c18",
+    "player_name": "Kelli Mitchell",
+    "game": "League of Legends",
+    "score": 3519,
+    "level": 45,
+    "achievements": [
+      "Speedrunner",
+      "Elite Shooter"
+    ],
+    "play_time_hours": 235.62
+  },
+  {
+    "id": "f72159c5-366f-43b1-a4ed-d2533a974190",
+    "player_name": "Kimberly Lowery",
+    "game": "Call of Duty",
+    "score": 4473,
+    "level": 45,
+    "achievements": [
+      "Top 10%",
+      "Survivor"
+    ],
+    "play_time_hours": 234.82
+  },
+  {
+    "id": "0b803522-f45b-4de5-9222-b2c359bb3b72",
+    "player_name": "Annette Reynolds",
+    "game": "League of Legends",
+    "score": 3500,
+    "level": 9,
+    "achievements": [
+      "Master Rank",
+      "Speedrunner"
+    ],
+    "play_time_hours": 100.04
+  },
+  {
+    "id": "b773f728-de5e-4a70-8229-05e1828c31c7",
+    "player_name": "Anna Hood",
+    "game": "Call of Duty",
+    "score": 2051,
+    "level": 26,
+    "achievements": [
+      "Speedrunner",
+      "Master Rank"
+    ],
+    "play_time_hours": 195.04
+  },
+  {
+    "id": "96851ee4-02ab-4fe4-9e97-0ef89221cb44",
+    "player_name": "Shawn Smith",
+    "game": "Fortnite",
+    "score": 2514,
+    "level": 45,
+    "achievements": [
+      "Elite Shooter",
+      "Survivor"
+    ],
+    "play_time_hours": 230.74
+  },
+  {
+    "id": "fe963ee2-9b28-4df7-86e7-1ebde20ea275",
+    "player_name": "John Bennett",
+    "game": "Apex Legends",
+    "score": 7524,
+    "level": 7,
+    "achievements": [
+      "Top 10%",
+      "Elite Shooter"
+    ],
+    "play_time_hours": 382.02
+  },
+  {
+    "id": "d595400e-d2c4-4149-bd44-8aec367bc892",
+    "player_name": "Adam Huffman",
+    "game": "Call of Duty",
+    "score": 8198,
+    "level": 23,
+    "achievements": [
+      "Speedrunner",
+      "Top 10%"
+    ],
+    "play_time_hours": 286.6
+  },
+  {
+    "id": "09fd3e88-be40-4278-b81c-bc38f88adf38",
+    "player_name": "Jennifer Phelps",
+    "game": "Minecraft",
+    "score": 5137,
+    "level": 1,
+    "achievements": [
+      "Speedrunner",
+      "Elite Shooter"
+    ],
+    "play_time_hours": 275.95
+  },
+  {
+    "id": "b2967f20-8885-41be-acd6-3c8556ea90f0",
+    "player_name": "Jonathan Bailey",
+    "game": "Overwatch",
+    "score": 6517,
+    "level": 19,
+    "achievements": [
+      "Elite Shooter",
+      "Top 10%"
+    ],
+    "play_time_hours": 60.51
+  },
+  {
+    "id": "156501d6-1573-4f98-bc6b-c8beffacc303",
+    "player_name": "Frederick Huff",
+    "game": "League of Legends",
+    "score": 1478,
+    "level": 45,
+    "achievements": [
+      "Elite Shooter",
+      "Top 10%"
+    ],
+    "play_time_hours": 399.3
+  },
+  {
+    "id": "9ef5c04f-2b41-45b2-8fdd-b4db46d5b7f6",
+    "player_name": "Victoria Bishop",
+    "game": "Apex Legends",
+    "score": 826,
+    "level": 33,
+    "achievements": [
+      "Elite Shooter",
+      "Master Rank"
+    ],
+    "play_time_hours": 198.25
+  }
+]
